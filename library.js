@@ -115,12 +115,12 @@ const addTrack = function (name, artist, album) {
 
 // adds a playlist to the library
 const addPlaylist = function (name) {
-  //   const createdId = generateUid();
-  //   library.playlists[createdId] = {
-  //     id: createdId,
-  //     name: name,
-  //     tracks: [createdId],
-  //   };
+  const createdId = generateUid();
+  library.playlists[createdId] = {
+    id: createdId,
+    name: name,
+    tracks: [createdId],
+  };
 };
 // addPlaylist("dafdsfas");
 // console.log(library.playlists);
